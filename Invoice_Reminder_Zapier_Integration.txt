@@ -1,0 +1,40 @@
+Invoice_Reminder_Zapier_Integration
+
+Go to the project directory
+
+    cd projectfile
+
+Install dependencies
+
+    npm install
+
+Start the server
+
+    npm run dev
+
+1. Google OAuth Integration
+
+Google OAuth allows users to log in to your application using their Google accounts.
+
+Prerequisites
+
+    You need to create a Google Cloud Platform project and enable the Google OAuth API.
+    
+    Obtain OAuth client credentials (client ID and client secret).
+
+npm install react-google-login
+
+2. Zapier account:
+
+Integrate with Zapier
+
+    Create a Zap:
+
+        Create a Zap in Zapier with a Webhook trigger.
+
+        Set up actions for sending email reminders and follow-up notifications.
+
+
+    Configure Webhook URL:
+
+        Use the webhook URL from Zapier in your Node.js backend to trigger the automation when needed.
